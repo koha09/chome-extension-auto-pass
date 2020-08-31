@@ -1,11 +1,21 @@
 {
   "name": "auto-pass",
-  "version": "1.0.0",
-  "description": "",
-  "main": "background.js",
+  "version": "0.0.1",
+  "description": "Chrome extension for implementing auto-pass testing",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Mrikaev Konstantin",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }

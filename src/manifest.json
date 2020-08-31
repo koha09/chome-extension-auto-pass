@@ -1,0 +1,21 @@
+{
+  "name": "Auto-pass testing",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Chrome extension for implementing auto-pass testing",
+  "homepage_url": "https://github.com/koha09/chome-extension-auto-pass.git",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Auto-pass"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
